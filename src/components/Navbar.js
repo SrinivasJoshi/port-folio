@@ -13,7 +13,7 @@ const Navbar = () => {
                 <li><a href="#about" >About</a></li>
                 <li><a href="#work">Work</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <li> <a href="/blog">Blog</a></li>   
+                {/* <li> <a href="/blog">Blog</a></li>    */}
             </div>
             
             {menu ? <img src="/menu.svg" alt="menu" onClick={() => setMenu(!menu)} className={styles.menuBtn} />: <img src="/cancel.svg" alt="cancel" onClick={() => setMenu(!menu)} className={styles.menuBtn} />}

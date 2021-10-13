@@ -55,10 +55,10 @@ html {
 .mainText h1{
     font-size: 4rem;
 }
-.mainText button{
+.mainText a{
+    color: #10002b;
     padding: 1rem 2rem;
     background-color: #ffa900;
-    color: #10002b;
     border-radius: .5rem;
     outline: none;
     border: 2px solid #10002b;
@@ -69,19 +69,11 @@ html {
     transition: .25s ease-in-out;
     text-decoration: none;
 }
-.mainText button a{
-    text-decoration: none;
-    color: #10002b;
-}
-.mainText button:hover{
+.mainText a:hover{
     color: #ffa900;
     background-color: #10002b;
+    text-decoration: none;
     border: 2px solid #ffa900;
-}
-.mainText button a:hover{
-    color: #ffa900;
-    background-color: #10002b;
-    text-decoration: none;
 }
 
 /* ABOUT PAGE */
@@ -152,7 +144,7 @@ html {
     border-radius: 5px;
     border: 1px solid #ffa900;
     padding: 1rem;
-    min-height: 28rem;
+    min-height: 32rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;

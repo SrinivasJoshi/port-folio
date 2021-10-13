@@ -15,7 +15,7 @@ const index = () => {
               <h1>I build things for the Web</h1>
             </div>
             <p>I’m a FrontEnd Developer specializing in building (and occasionally designing) exceptional web applications, and everything in between.</p>
-            <button> <a href="#contact"> Get In Touch</a></button>
+            <a href="#contact"> Get In Touch</a>
           </div>
           <div className={styles.mainImg}>
             <img src="/main-page-img.svg" alt="developer-image" />

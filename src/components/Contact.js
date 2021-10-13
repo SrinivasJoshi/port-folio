@@ -1,6 +1,5 @@
 import React , {useRef} from 'react';
 import * as styles from '../styles/main.module.css';
-import apiKey from '../js/apiKey';
 
 const Contact = () => {
     const nameRef = useRef(''); 
@@ -9,9 +8,9 @@ const Contact = () => {
 
     const handleSubmit = ()=>{
      const data={
-         service_id:apiKey.SERVICE_ID,
-         template_id:apiKey.TEMPLATE_ID,
-         user_id:apiKey.USER_ID,
+         service_id:process.env.GATSBY_SERVICE_ID,
+         template_id:process.env.GATSBY_TEMPLATE_ID,
+         user_id:process.env.GATSBY_USER_ID,
          template_params:{
              from_name:nameRef.current.value,
              from_email:emailRef.current.value,

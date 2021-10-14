@@ -35,9 +35,11 @@
     align-items: center;
 }
 .menuBtn{
-   width: 30px;
-   transform: translateY(1rem);
-   display: none;
+  z-index: 5;
+  width: 25px;
+  height: 25px;
+  margin-top: 2.5rem;
+  display: none;
 }
 
 .rightSide li a{
@@ -108,7 +110,8 @@
       display: inline-block;
     }
     .menuBtn{
-        margin-right: 2rem;
+        margin-right: 2.5rem;
+        display: inline;
     }
     .noMenu{
         display: none;

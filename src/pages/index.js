@@ -1,5 +1,6 @@
 import React ,{ useRef } from 'react';
 import Contact from '../components/Contact';
+import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from '../components/Layout';
 import * as styles from '../styles/main.module.css';
@@ -18,13 +19,13 @@ const index = () => {
             <a href="#contact"> Get In Touch</a>
           </div>
           <div className={styles.mainImg}>
-            <img src="/main-page-img.svg" alt="developer-image" />
+            <StaticImage src="../images/main-page-img.svg" alt="developer-image"/>
           </div>
         </section>
 
         <section className={styles.about} id="about">
           <div className={styles.faceImg}>
-            <img src="/DP.jpeg" alt="Display Image" />
+            <StaticImage src="../images/DP.jpeg" alt="Display Image" />
           </div>
           <h2>About Me</h2>
           <div className={styles.aboutPara}>
@@ -38,25 +39,25 @@ const index = () => {
           <h2>My Work</h2>
           <div className={styles.gridWork} >
             <div className={styles.project}>
-              <div><img src="/1.png" alt="Project One" /> </div>
+              <div><StaticImage src="../images/1.png" alt="Project Three" className={styles.thumbNail} /> </div>
               <a href="https://binge12.netlify.app/">Binge</a>
               <p>Use of third-party API(OMDB) to get the data for movies and list them using CSS grid</p>
             </div>
 
             <div className={styles.project}>
-              <div><img src="/2.png" alt="Project Two" /> </div>
+              <div><StaticImage src="../images/2.png" alt="Project Three" className={styles.thumbNail} /> </div>
               <a href="https://proactive12.netlify.app/">ProActive</a>
               <p>A Web Application to improve your productivity.Includes todo list,music and timer. </p>
             </div>
 
             <div className={styles.project}>
-              <div><img src="/3.png" alt="Project Three" /> </div>
+              <div><StaticImage src="../images/3.png" alt="Project Three" className={styles.thumbNail} /></div>
               <a href="https://groomcafe.netlify.app/">Groom Cafe</a>
               <p>A website for a cake shop.Pick pastries of your choice.UI designed by me.</p>
             </div>
 
             <div className={styles.project}>
-              <div><img src="/4.png" alt="Project Four" /> </div>
+              <div><StaticImage src="../images/4.png" alt="Project Three" className={styles.thumbNail} /> </div>
               <a href="https://colorgame1212.netlify.app/"> RGB</a>
               <p>A Javascript game to test your RGB skills. Pick the card which represents the given code.</p>
             </div>

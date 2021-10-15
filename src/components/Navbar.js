@@ -7,7 +7,7 @@ const Navbar = () => {
     return (
         <nav className={styles.navbar}>
             <div className={styles.leftSide}>
-                <StaticImage src="../images/logo.svg" alt="Logo Img" />
+                <StaticImage src="../images/logo.svg" alt="Logo Img" className={styles.logoImg} />
             </div>
             <div className={menu ? styles.noMenu : styles.rightSide}>
                 {/* <li><a href="#home">Home</a></li> */}

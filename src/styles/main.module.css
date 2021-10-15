@@ -223,6 +223,13 @@ html {
         width: 100%;
     }
 } */
+.navbar .menuBtn{
+    z-index: 5;
+    width: 25px;
+    height: 25px;
+    margin-top: 2.5rem;
+    display: none !important;
+  }
 
 @media screen and (max-width: 600px) {
     html{
@@ -269,5 +276,9 @@ html {
     }
     .work h2{
         margin-bottom: 2rem;
+    }
+    .menuBtn{
+        margin-right: 2.5rem;
+        display: inline!important;
     }
 }

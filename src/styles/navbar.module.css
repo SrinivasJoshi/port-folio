@@ -25,7 +25,7 @@
     padding-left: 4.5rem;
     padding-top: 1rem;
 }
-.leftSide img{
+.logoImg{
     width: 3.5rem;
 }
 .rightSide{
@@ -34,12 +34,12 @@
     justify-content: space-evenly;
     align-items: center;
 }
-.menuBtn{
+.navbar .menuBtn{
   z-index: 5;
   width: 25px;
   height: 25px;
   margin-top: 2.5rem;
-  display: none;
+  display: none !important;
 }
 
 .rightSide li a{
